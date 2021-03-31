@@ -1,0 +1,37 @@
+/**
+ * This file is part of OpenClassRooms
+ *
+ * @license   Tous droits réservés
+ * @author    Elie Laurent (elie@redline.paris)
+ * @category  Formation
+ * @package   CSS
+ * @copyright Copyright (c) 2021 
+ */
+  @font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    body
+    {
+
+    }
+    h1,h2
+    {
+    	font-family:'ambleregular','arial','sans-serif';
+    }
+    h1,h1 + p
+    {
+    	text-align: center;
+    }
+    img  
+    {
+         max-width:80px;
+         float: right;
+    }
